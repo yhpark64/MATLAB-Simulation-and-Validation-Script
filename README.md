@@ -38,9 +38,9 @@ To run this code, you need:
     Ensure the CAD file `cad/Part1.STL` is in the correct directory relative to the script.
 
 3.  **Run the Simulation:**
-    Open `flexible_link_sim.m` in MATLAB and run the script.
+    Open `baem7.m` in MATLAB and run the script.
     ```matlab
-    >> flexible_link_sim
+    >> beam7
     ```
 
     *Note: The first run may take several minutes as the code generates the mesh and performs the symbolic derivation. Subsequent runs can be accelerated by loading the pre-computed `sorosim.mat` if saved.*
